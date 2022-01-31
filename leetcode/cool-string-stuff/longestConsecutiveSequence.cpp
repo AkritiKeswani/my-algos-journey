@@ -21,9 +21,6 @@ public:
             if (nums[i] == nums[i - 1]) continue;
             else if (nums[i] == nums[i - 1] + 1) {
                 currentWinner++;
-          // Prathams debugging // cout << nums[i];
-            // cout << nums[i-1];
-            // cout << currentWinner;
             }
             //otherwise
             else {

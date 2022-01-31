@@ -30,10 +30,3 @@ public:
         return groupedAnagrams;
     }
 };
-
-
-
-
-
-//strs - array of strings 
-// group the anagrams together 

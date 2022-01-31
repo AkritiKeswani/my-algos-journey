@@ -4,9 +4,6 @@
 //between two nodes p and q as the lowest node in T that has both p and q as descendants 
 //(where we allow a node to be a descendant of itself).”
 
-//question encountered in bloomberg first round~ 
-
-
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -30,7 +27,7 @@ public:
     }
 };
 
-//the simple approach here is to use recursive calls - each time we visit a node there is a call being made 
+//The simple approach here is to use recursive calls - each time we visit a node there is a call being made 
 
 //BASE CASE would be if the root itself is NULL or if the root is equivalent to any of the TreeNodes 
 // they already gave us (think about the root here as the CURRENT node you are visiting atm)
